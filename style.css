@@ -1,0 +1,42 @@
+*{ /* Aqui afectamos todo el body*/
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+header{ /* aqui afectamos solo una etiqueta  */
+    background-color: #333;
+    padding: 10px 0;
+    width: 100%;
+}
+
+.list{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;/*organiza las listas en horizontal*/
+    gap: 10px;
+}
+
+.list li a {
+    text-decoration:none;
+    color: #fff;
+    font-size: 16px;
+    font-family:'Courier New', Courier, monospace;
+    padding: 10px 10px;
+    display: block;
+
+}
+
+.list li a:hover{
+    color: blue;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;  
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+}
